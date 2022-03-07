@@ -50,6 +50,26 @@ const Home: NextPage = () => {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
+
+          <a
+            href='https://www.youtube.com/watch?v=f4Wxt6mHMnc'
+            className={styles.card}
+          >
+            <h2>Esta Merda é Foda &#128560; &rarr;</h2>
+            <p>
+                Não creio que ele fez isso!!!O_O
+            </p>
+            </a>
+            
+            <a 
+            href="https://www.youtube.com/watch?v=Q2udKBr-x-o"
+            className={styles.card}
+            >
+              <h2>Música de Touhou &rarr;</h2>
+              <p>
+                Essa é foda...
+              </p>
+            </a>
         </div>
       </main>
 
@@ -65,6 +85,7 @@ const Home: NextPage = () => {
           </span>
         </a>
       </footer>
+
     </div>
   )
 }
